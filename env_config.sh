@@ -109,7 +109,7 @@ function install_zsh () {
   sed -i 's/plugins=(git)/plugins=(git zsh-syntax-highlighting zsh-autosuggestions zsh-completions zsh-history-substring-search)/g' ~/.zshrc
 
 # Reload .zshrc file
-  source ~/.zsh
+  source ~/.zshrc
 }
 function install_peda () {
   echo -e "[*]start install peda"
